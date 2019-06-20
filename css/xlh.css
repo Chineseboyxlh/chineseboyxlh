@@ -1,1 +1,28 @@
-
+/* CSS Document */
+header{
+	background-color: gray;
+	height: 50px;
+	line-height: 50px;
+}
+li{
+	list-style: none;
+}
+header nav li{
+	float: right;
+	margin-right: 40px;
+}
+.logo{
+	float: left;
+	margin-left: 30px;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+}
+.logo a{
+	font-size: 20px;
+	font-weight: 700;
+}
